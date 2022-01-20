@@ -1,0 +1,82 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#header-nav{
+    background-color:bisque;
+
+}.navbar-brand{
+    padding-top: 15px;
+}
+.navbar-brand h1 { 
+    font-family: 'Lora', serif;
+    color: #5e0410;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    position:absolute;
+    left: 20PX;
+}
+.navbar-brand a:hover{
+    text-decoration:none ;
+}
+#nav-list a {
+    color: #951C49;
+    text-align: center;
+    font-size: large;
+    font-weight:700;
+}
+#nav-list a:hover {
+    background: #f18d8d;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+.category-tile { 
+    position: relative;
+    border: 2px solid #9c0c43;
+    overflow: hidden;
+    width: 300px;
+    height: 1000px;
+    margin: 0 auto 15px;
+  }
+  .category-tile span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    background-color: rgb(82, 21, 21);
+    color: #fff;
+    opacity: .8;
+  }
+  .category-tile:hover {
+    box-shadow: 0 1px 5px 1px #cccccc;
+    text-decoration: none;
+}
+ a:hover{
+    text-decoration: none;
+    color: black;
+}
+a{
+    color: black;
+
+}
+p{
+    padding: 10PX 10PX 10PX 10PX;
+}
+h2{
+    color:rgb(110, 61, 72);
+    margin-bottom: 50PX;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
